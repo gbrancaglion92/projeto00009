@@ -1,0 +1,202 @@
+/*CSS GLOBAL*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.container {
+    padding: 120px 80px;
+}
+
+.negrito {
+    font-weight: bold;
+    font-style: italic;
+}
+
+/*SEÇÃO BANNER*/
+.banner {  
+    background-image: url(img/banner-topo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+    /*LOGO*/
+.logo {
+    max-width: 250px;
+    color: #3c184e
+}
+
+.texto_logo {
+    font-size: 35px;
+    margin: 0 5px 0 0;
+    display: inline;
+    font-weight: 700px;
+}
+
+.logo_pata{
+    width: 30px;
+    margin-right: 5px;
+}
+
+.texto_logo2 {
+    text-align: center;
+    font-size: 14px;
+    margin: none;
+}
+
+
+    /*TEXTO BANNER*/
+.texto_banner {
+    max-width: 1024px;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 70px auto 0;
+    background-color: #ffffffc4;
+    box-shadow: 0 8px 32px #1f26875e;
+}
+
+
+.texto_banner h1 {
+    font-size: 60px;
+    color: #3c184e;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 0 0 40px;    
+}
+
+.banner .zap {
+    text-align: center;
+    width: 200px;
+    padding: 10px 25px;
+    font-size: 20px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #3c184e;
+}
+
+.texto_banner .link_zap {
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffff;
+}
+
+.texto_banner img {
+    width: 20px;
+    margin: 0 0 0 5px;
+}
+
+/*SEÇÃO SERVIÇOS*/
+
+    /*LISTA DE SERVIÇOS*/
+.serviços{
+    width: 100%;
+    padding: 120px 80px;
+}
+
+.serviços h3 {
+    font-size: 36px;
+    color: #3c184e;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.lista_serviços {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-left: 200px;
+    color: #3c184e;
+    font-size: 20px;
+    text-align: center;
+}
+
+.lista_serviços li {
+    list-style-type: square;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+/*IMAGENS*/
+
+.cinco_fotos {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+         
+}
+
+.cinco_fotos img {
+    box-shadow: 3px 6px 10px 6px #0000005c;
+    border-radius: 5px;
+}
+
+/*FAIXAS*/
+.texto_faixa {
+    max-width: 800px;
+    margin: 0 auto 50px;
+    font-size: 40px;
+    color: #ffff;    
+}
+
+.faixas {
+    background-color: #3c184e;
+    text-align: center;
+}
+
+.faixas img {
+    margin: 0 20px;
+    width:50px;
+}
+
+/*MARCAS*/
+.marcas h3 {
+    font-size: 36px;
+    color: #3c184e;
+    text-align: center;
+    margin: 0 45px;
+}
+
+.logos_marcas {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/*ONDE ESTAMOS*/
+.onde_estamos {
+    text-align: center;
+}
+
+.onde_estamos h3 {
+    font-size: 36px;
+    color: #3c184e;
+    text-align: center;
+    margin: 45px 15px 45px;
+    
+}
+
+.onde_estamos p {
+    font-size: 20px;
+    color: #3c184e;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.onde_estamos iframe {
+    width: 800px;
+    height: 450px;
+  
+}
+
+/*RODAPÉ*/
+.rodapé {
+    width: 100%;
+    padding: 20px;    
+    background-color: #3c184e;
+    color: #ffff;
+    font-size: 12px;
+    text-align: center;
+}
